@@ -1,0 +1,25 @@
+{
+    "name": "matrixpro/csv-reader",
+    "description": "Reads CSV files.",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=5.6.4",
+        "matrixpro/csv-delimiter-finder": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Jason",
+            "email": "jason@matrix.pro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MatrixPro\\CsvReader\\": "src"
+        }
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~7.0"
+    }
+}

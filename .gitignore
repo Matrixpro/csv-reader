@@ -1,0 +1,4 @@
+tests/CsvTestFile3.csv
+tests/CsvTestFile4.csv
+vendor/
+composer.lock
